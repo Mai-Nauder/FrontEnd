@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <style>
+    #body {
+      margin: 0px;
+      color: white;
+      background-color: #e9ecef;
+    }
+
+    .header {
+      width: 100%;
+      text-align: left;
+      background-color: #606470;
+    }
+
+    #icon {
+      color: white
+    }
+
+    .start {
+      text-align: left;
+      background-color: black;
+      color: rgb(255, 255, 255);
+      font-size: 40px;
+      font-family: 'Cairo';
+      font-size: x-large;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      background-color: dimgray;
+    }
+
+    #posts_container {
+      padding: 5px;
+      background-color: #606470;
+
+    }
+
+    .row {
+      margin: 20px;
+    }
+
+    .col {
+      margin: 20px;
+      padding: 5px;
+      background-color: darksalmon;
+      border-radius: 5px;
+    }
+
+    h5 {
+      color: rgb(122, 183, 233);
+    }
+
+    .card-body p {
+      color: darkslategray;
+    }
+
+  </style>
+  
+</head>
+<body id="body">
+  <section class="header" style="text-align: left;">
+    <div class="start" style="text-align: left;">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <svg id="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+          <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+          <circle cx="12" cy="13" r="4"></circle>
+        </svg>
+        <strong style="margin-left: 5px; color: white; font-family:sans-serif;">Album</strong>
+      </a>
+    </div>
+  </section>
+
+
+  <section style="background-color:#606470;" class="jumbotron text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading">Album example</h1>
+      <p style="color: #F7F7F7;">
+        Something short and leading about the collection below—its contents,
+        the creator, etc. Make it short and sweet, but not too short so
+        folks don't simply skip over it entirely.
+      </p>
+
+      <div class="btn-group me-2" role="group" aria-label="First group">
+        <button type="button" class="btn btn-success">Add new image</button>
+      </div>
+      <div class="btn-group me-2" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-outline-danger">Delete</button>
+      </div>
+    </div>
+  </section>
+
+  <div style="  padding: 20px; background-color: #F7F7F7; " id="posts_container" class="container">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/225x100?text=Hello+World" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-outline-secondary">view</button>
+                <button type="button" class="btn btn-outline-secondary">edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/225x100?text=Hello+World" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-outline-secondary">view</button>
+                <button type="button" class="btn btn-outline-secondary">edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/225x100?text=Hello+World" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-outline-secondary">view</button>
+                <button type="button" class="btn btn-outline-secondary">edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/225x100?text=Hello+World" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-outline-secondary">view</button>
+                <button type="button" class="btn btn-outline-secondary">edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/225x100?text=Hello+World" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-outline-secondary">view</button>
+                <button type="button" class="btn btn-outline-secondary">edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/225x100?text=Hello+World" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-outline-secondary">view</button>
+                <button type="button" class="btn btn-outline-secondary">edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/225x100?text=Hello+World" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-outline-secondary">view</button>
+                <button type="button" class="btn btn-outline-secondary">edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/225x100?text=Hello+World" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-outline-secondary">view</button>
+                <button type="button" class="btn btn-outline-secondary">edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="https://via.placeholder.com/225x100?text=Hello+World" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-outline-secondary">view</button>
+                <button type="button" class="btn btn-outline-secondary">edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container" style="height: 200px;">
+      <span style="color: #bac0c5 ;" class="d-flex justify-content-between">
+        New to Bootstrap?
+        <a class="nav-link" href="#"> Visit the homepage </a>
+        or read our
+        <a class="nav-link" href="#"> getting started guide. </a>
+      </span>
+    </div>
+  </footer>
+</body>
